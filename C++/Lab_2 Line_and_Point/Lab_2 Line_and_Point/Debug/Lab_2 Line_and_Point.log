@@ -1,0 +1,4 @@
+﻿  Lab_2 Line_and_Point.cpp
+c:\users\den\documents\visual studio 2015\projects\lab_2 line_and_point\lab_2 line_and_point\lab_2 line_and_point.cpp(27): warning C4700: uninitialized local variable 'yI' used
+  Lab_2 Line_and_Point.vcxproj -> C:\Users\Den\documents\visual studio 2015\Projects\Lab_2 Line_and_Point\Debug\Lab_2 Line_and_Point.exe
+  Lab_2 Line_and_Point.vcxproj -> C:\Users\Den\documents\visual studio 2015\Projects\Lab_2 Line_and_Point\Debug\Lab_2 Line_and_Point.pdb (Full PDB)

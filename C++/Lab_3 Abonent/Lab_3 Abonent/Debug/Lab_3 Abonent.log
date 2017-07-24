@@ -1,0 +1,5 @@
+﻿  PhoneBook.cpp
+c:\users\den\documents\visual studio 2015\projects\lab_3 abonent\lab_3 abonent\phonebook.cpp(75): warning C4018: '<': signed/unsigned mismatch
+c:\users\den\documents\visual studio 2015\projects\lab_3 abonent\lab_3 abonent\phonebook.cpp(37): warning C4717: 'PhoneBook::getAbonentArrayStatic': recursive on all control paths, function will cause runtime stack overflow
+  Lab_3 Abonent.vcxproj -> C:\Users\Den\documents\visual studio 2015\Projects\Lab_3 Abonent\Debug\Lab_3 Abonent.exe
+  Lab_3 Abonent.vcxproj -> C:\Users\Den\documents\visual studio 2015\Projects\Lab_3 Abonent\Debug\Lab_3 Abonent.pdb (Full PDB)
