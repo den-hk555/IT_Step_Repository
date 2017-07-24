@@ -7,19 +7,19 @@
 using namespace std;
 
 
-class PhoneBook 
+class PhoneBook
 {
 
 	static size_t countEntry;
 
- 	Abonent abonent;
+	Abonent abonent;
 
 	Abonent* abonentArray;
 
 	std::array<Abonent, 1000> abonentArrayStatic;
 
 public:
-	
+
 	PhoneBook();
 	PhoneBook(const Abonent& abonent);
 	~PhoneBook();
@@ -51,4 +51,3 @@ public:
 
 
 };
-

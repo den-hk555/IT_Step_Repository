@@ -1,12 +1,14 @@
 
 #include "PhoneBook.h"
 #include <iostream>
+#include <array>
+
 
 
 size_t PhoneBook::countEntry = 0;
 
 
-PhoneBook::PhoneBook(const Abonent& abonentN): abonent(abonentN)
+PhoneBook::PhoneBook(const Abonent& abonentN) : abonent(abonentN)
 {
 	++countEntry;
 }
@@ -51,7 +53,7 @@ void PhoneBook::setAbonentArrayStatic(Abonent newSetAbonentArrayStatic, size_t c
 void  PhoneBook::addAbonentStatic()
 {
 	std::string SurnameN, NameN, MidnameN, PhoneN, MobPhoneN;
-	
+
 	std::cout << " Surname Abonent - ";
 	std::cin >> SurnameN;
 	abonentArrayStatic.at(countEntry).setSurnameN(SurnameN);
