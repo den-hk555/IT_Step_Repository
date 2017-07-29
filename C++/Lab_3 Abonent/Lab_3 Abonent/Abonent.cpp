@@ -5,9 +5,8 @@
 
 size_t Abonent::countAbonent = 0;
 
-
-Abonent::Abonent(std::string SurnameN, std::string NameN, std::string MidnameN, std::string PhoneN, std::string MobPhoneN) :
-	surname(SurnameN), name(NameN), midname(MidnameN), phone(PhoneN), mobPhone(MobPhoneN)
+Abonent::Abonent(std::string Surname, std::string Name, std::string Midname, std::string Phone, std::string MobPhone) :
+	surname(Surname), name(Name), midname(Midname), phone(Phone), mobPhone(MobPhone)
 {
 	++countAbonent;
 }
@@ -16,18 +15,17 @@ Abonent::Abonent() {}
 
 Abonent::~Abonent() {}
 
-void Abonent::setSurnameN(const std::string SurnameN) { std::string surname = SurnameN; }
-void Abonent::setNameN(const std::string NameN) { std::string surname = NameN; }
-void Abonent::setMidnameN(const std::string MidnameN) { std::string midname = MidnameN; }
-void Abonent::setPhoneN(const std::string PhoneN) { std::string phone = PhoneN; }
-void Abonent::setMobPhoneN(const std::string MobPhoneN) { std::string mobPhone = MobPhoneN; }
+void Abonent::setSurname(const std::string Surname) { surname = Surname; }
+void Abonent::setName(const std::string Name) { name = Name; }
+void Abonent::setMidname(const std::string Midname) { midname = Midname; }
+void Abonent::setPhone(const std::string Phone) { phone = Phone; }
+void Abonent::setMobPhone(const std::string MobPhone) { mobPhone = MobPhone; }
 
-std::string Abonent::getSurnameN() const { return surname; }
-std::string Abonent::getNameN()	const { return name; }
-std::string Abonent::getMidnameN() const { return midname; }
-std::string Abonent::getPhoneN() const { return phone; }
-std::string Abonent::getMobPhoneN() const { return mobPhone; }
-
+std::string Abonent::getSurname() const { return surname; }
+std::string Abonent::getName()	const { return name; }
+std::string Abonent::getMidname() const { return midname; }
+std::string Abonent::getPhone() const { return phone; }
+std::string Abonent::getMobPhone() const { return mobPhone; }
 
 std::string Abonent::getInfo() const
 {

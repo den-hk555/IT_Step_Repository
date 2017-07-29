@@ -10,13 +10,10 @@ using namespace std;
 class PhoneBook
 {
 
-	static size_t countEntry;
-
+	size_t countEntry;
 	Abonent abonent;
-
 	Abonent* abonentArray;
-
-	std::array<Abonent, 1000> abonentArrayStatic;
+	std::array <Abonent, 1000> abonentArrayStatic;
 
 public:
 
@@ -24,20 +21,25 @@ public:
 	PhoneBook(const Abonent& abonent);
 	~PhoneBook();
 
-	Abonent& PhoneBook::getabonentN();
+	Abonent& PhoneBook::getAbonent();
 
 	Abonent* getAbonentArray() const;
-	Abonent getAbonentArrayStatic() const;
+	std::array <Abonent, 1000> & PhoneBook::getAbonentArrayStatic();
 
-	void PhoneBook::setAbonentArray(Abonent* newPhoneBookArray);
-	void PhoneBook::setAbonentArrayStatic(Abonent newSetSubArrayStatic, size_t index);
+	// Abonent getAbonentArrayStatic() const;
+
+	void setAbonentArray(Abonent* newPhoneBookArray);
+	void setAbonentArrayStatic(Abonent newSetSubArrayStatic, size_t index);
 
 
-	void PhoneBook::addAbonentStatic();
-	void PhoneBook::printAbonentArrayStatic();
+	void addAbonentStatic();
+	void printAbonentArrayStatic();
+	void FindAbonentStatic();
 
+	void newAbonentArray();
+	void addAbonent();
+	void printabonentArray();
 	/*
-	void addAbonent(const Abonent& abonent);
 	void delAbonent(const Abonent& abonent);
 	*/
 
@@ -45,9 +47,9 @@ public:
 
 	void printInfo() const;
 
-	void PhoneBook::setcountEntry(const size_t newcountEntry);
+	void setcountEntry(const size_t newcountEntry);
 
-	size_t PhoneBook::getEntry();
+	size_t getEntry();
 
-
+	
 };

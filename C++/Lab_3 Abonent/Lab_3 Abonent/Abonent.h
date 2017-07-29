@@ -15,23 +15,23 @@ class Abonent
 
 public:
 
-	Abonent(const std::string SurnameN, const std::string NameN, const std::string MidnameN, const std::string PhoneN, const std::string MobPhoneN);
+	Abonent(const std::string Surname, const std::string Name, const std::string Midname, const std::string Phone, const std::string MobPhone);
 
 	Abonent();
 
-	void setNameN(const std::string NameN);
-	void setSurnameN(const std::string SurnameN);
-	void setMidnameN(const std::string MidnameN);
-	void setPhoneN(const std::string PhoneN);
-	void setMobPhoneN(const std::string MobPhoneN);
+	void setName(const std::string Name);
+	void setSurname(const std::string Surname);
+	void setMidname(const std::string Midname);
+	void setPhone(const std::string Phone);
+	void setMobPhone(const std::string MobPhone);
 
-	size_t Abonent::getCount();
+	size_t getCount();
 
-	std::string getSurnameN() const;
-	std::string getNameN() const;
-	std::string getMidnameN() const;
-	std::string getPhoneN() const;
-	std::string getMobPhoneN() const;
+	std::string getSurname() const;
+	std::string getName() const;
+	std::string getMidname() const;
+	std::string getPhone() const;
+	std::string getMobPhone() const;
 
 	std::string getInfo() const;
 

@@ -1,0 +1,3 @@
+﻿  MyVector.cpp
+c:\users\den\documents\visual studio 2015\projects\lab_4_digit_vector\lab_4_digit_vector\myvector.h(49): warning C4800: 'std::size_t': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\den\documents\visual studio 2015\projects\lab_4_digit_vector\lab_4_digit_vector\myvector.cpp(125): error C2110: '+': cannot add two pointers

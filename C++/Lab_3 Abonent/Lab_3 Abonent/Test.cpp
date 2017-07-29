@@ -124,7 +124,6 @@ bool Test::test_copy_ctor_2() const {
 	return true;
 }
 
-
 bool Test::test_at() const {
 	std::cout << "Test 6: ";
 	MyVector v = createVector(15);
