@@ -3,25 +3,25 @@
 #include <iostream>
 
 
-Book::Book(std::string AutorN, std::string NameN, std::string PublishN, std::string YearN, std::string PageN):
-	autor(AutorN), name(NameN), publish(PublishN), year(YearN), page(PageN)
+Book::Book(std::string Autor, std::string Name, std::string Publish, std::string Year, std::string Page):
+	autor(Autor), name(Name), publish(Publish), year(Year), page(Page)
 {}
 
 Book::Book() {}
 
 Book::~Book() {}
 
-void setAutorN(const std::string AutorN) { std::string autor = AutorN; };
-void setNameN(const std::string NameN) { std::string surname = NameN; };
-void setPublishN(const std::string PublishN) { std::string publish = PublishN; };
-void setYearN(const std::string YearN) { std::string year = YearN; };
-void setPageN(const std::string PageN) { std::string phone = PageN; };
+void Book::setAutor(const std::string Autor) { std::string autor = Autor; };
+void Book::setName(const std::string Name) { std::string surname = Name; };
+void Book::setPublish(const std::string Publish) { std::string publish = Publish; };
+void Book::setYear(const std::string Year) { std::string year = Year; };
+void Book::setPage(const std::string Page) { std::string phone = Page; };
 
-std::string Book::getAutorN() const { return autor; };
-std::string Book::getNameN()	const { return name; };
-std::string Book::getPublishN() const { return publish; };
-std::string Book::getYearN() const { return year; };
-std::string Book::getPageN() const { return page; };
+std::string Book::getAutor() const { return autor; };
+std::string Book::getName()	const { return name; };
+std::string Book::getPublish() const { return publish; };
+std::string Book::getYear() const { return year; };
+std::string Book::getPage() const { return page; };
 
 
 std::string Book::getInfo() const

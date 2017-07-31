@@ -14,7 +14,7 @@
 using namespace std;
 
 
-float Intersection(Line l5, Line l6)
+Point Intersection(Line l5, Line l6)
 {
 	float xI, yI;
 	if (l5.getK() == l6.getK())
@@ -24,7 +24,7 @@ float Intersection(Line l5, Line l6)
 		
 	
 	}
-	return xI, yI;
+	return Point(xI, yI);
 };
 
 

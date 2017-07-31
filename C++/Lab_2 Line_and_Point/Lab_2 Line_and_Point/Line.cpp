@@ -14,7 +14,6 @@ void Line::setB(const float newB) { b = newB; };
 float Line::getK() { return k; };
 float Line::getB() { return b; };
 
-
 bool checkIntersection(Line l1, Line l2)
 {
 	if (l1.getK() == l2.getK())

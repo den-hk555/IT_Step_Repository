@@ -14,7 +14,7 @@ PrettyPrint::PrettyPrint(const std::string String_STRN):
 PrettyPrint::~PrettyPrint()
 {}
 
-void setString_STRN(const std::string String_STRN) { std::string string_STR = String_STRN; };
+void PrettyPrint::setString_STRN(const std::string String_STRN) { std::string string_STR = String_STRN; };
 
 std::string PrettyPrint::getInfo() const
 {

@@ -1,5 +1,5 @@
 #pragma once
-
+#include <iostream>
 
 class Point
 {
@@ -20,4 +20,7 @@ public:
 	float getY() const;
 
 	~Point() {};
+
+	friend std::ostream& operator << (std::ostream& out, const Point& p);
 };
+
