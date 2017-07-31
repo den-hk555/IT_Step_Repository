@@ -1,5 +1,5 @@
 // stdafx.cpp : source file that includes just the standard includes
-// Lab_3 Abonent.pch will be the pre-compiled header
+// Lab_3_Phone_book_Vector.pch will be the pre-compiled header
 // stdafx.obj will contain the pre-compiled type information
 
 #include "stdafx.h"

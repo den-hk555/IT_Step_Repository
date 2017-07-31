@@ -1,7 +1,6 @@
 // Lab_3_Phone_book_Vector.cpp : Defines the entry point for the console application.
 //
 
-
 #include "stdafx.h"
 
 #include <iostream>
@@ -10,7 +9,6 @@
 #include "Abonent.h"
 #include "PhoneBook.h"
 #include "Test.h"
-#include "MyVector.h"
 
 
 int PhoneBookStatic()
@@ -74,11 +72,6 @@ int PhoneBookDynamic()
 
 
 
-
-
-
-
-
 int main()
 {
 	std::cout << "Basic functional, Abonent & Phone Book \n" << std::endl;
@@ -102,7 +95,7 @@ int main()
 
 	std::cout << "\n" << std::endl;
 	std::cout << "Dynamic Phone Book \n" << std::endl;
-	PhoneBookDynamic();
+	// PhoneBookDynamic();
 
 	std::cout << "\n" << std::endl;
 	std::cout << "Task 2" << std::endl;
